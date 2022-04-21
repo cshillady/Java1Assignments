@@ -10,9 +10,9 @@ public class Exercise2 {
         String sentence = scanner.nextLine();
         int upperCaseCount = 0;
 
-        for (int k = 0; k < sentence.length(); k++) {
+        for (int i = 0; i < sentence.length(); i++) {
 
-            if (Character.isUpperCase(sentence.charAt(k))) {
+            if (Character.isUpperCase(sentence.charAt(i))) {
 
                 upperCaseCount++;
             }
