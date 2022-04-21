@@ -8,6 +8,6 @@ public class Exercise1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your name.");
         String sentence = scanner.nextLine();
-        System.out.println(sentence.toUpperCase());
+        System.out.println("Your name in upper case is: " + sentence.toUpperCase() + "\n");
     }
 }
